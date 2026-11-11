@@ -16,3 +16,7 @@ __pycache__/
 tools/.i18n-cache.json
 config.bat
 node_modules
+
+# env files: never commit secrets
+.env*
+!.env.example
