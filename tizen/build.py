@@ -11,7 +11,6 @@ The same home screen as on LG (web/), with tizen/config.xml and tizen/icon.png, 
 TVs only install signed packages. TizenBrew Installer signs it with the person's Samsung certificate on 2023 and
 newer TVs; --sign uses `tizen package` (Tizen Studio, or Samsung's tizen-sdk-skills) with a profile made there.
 """
-import utils.session
 import os
 import re
 import shutil
